@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+        flex: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        }
+    </style>
+    <title>Breed List</title>
+</head>
+<body>
+    <div>
+        <p>Successfully make the image as your Favourite</p>
+        <p>Fav value is:{{.ImgId}}</p>
+    </div><br>
+
+    <div>
+        <form action="/list" method="get">
+            <button type="submit">Get All Fabs</button>
+        </form>
+    </div>
+    <div class="row">
+        {{ range $i := .ImgList}}
+        <div class="column">
+            <a target="_blank" href="#">
+                <img src="{{$i}}" width="300" height="200">
+            </a>
+        </div>   
+        {{end}}
+    </div>
+
+</body>
+</html>
