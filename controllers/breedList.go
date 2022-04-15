@@ -20,6 +20,7 @@ type FavBreedIdResponse struct {
 	ID      int    `json:"id"`
 }
 
+// golang method: Methods are defined on struct
 func (c *BreedListController) FavBreedById() {
 
 	var imgId string = c.GetString("imgid")

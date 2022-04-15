@@ -11,9 +11,14 @@ Now enter inside project folder and ``bee run`` it will open http://localhost:80
 
 #### GOLang basics
 1. Variadic functions can be called with any number of trailing arguments. For example, ``fmt.Println`` is a common variadic function.
-
+2. In Go the concept of char is called ``Rune``
+3. Go supports methods defined on struct types.
 
 #### parse json response 
 https://dev.to/billylkc/parse-json-api-response-in-go-10ng
 https://mholt.github.io/json-to-go/
+
+#### Project Structure
+1. This project contains the golang features 
+2. GET and POST request from backend go project to frontend and parse the response
 

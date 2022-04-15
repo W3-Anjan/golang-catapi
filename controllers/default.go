@@ -22,6 +22,7 @@ type Response []struct {
 	Height int           `json:"height"`
 }
 
+// Golang Method
 func (c *MainController) BreedSearch() {
 
 	client := &http.Client{
