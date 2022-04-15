@@ -10,5 +10,4 @@ func init() {
 	beego.Router("/", &controllers.MainController{}, "get:BreedSearch")
 	beego.Router("/id", &controllers.BreedListController{}, "post:FavBreedById")
 	beego.Router("/list", &controllers.BreedListController{}, "get:GetFavBreeds")
-	beego.Router("/contactus", &controllers.ContactusController{})
 }
