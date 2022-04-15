@@ -23,8 +23,8 @@ https://mholt.github.io/json-to-go/
 2. GET and POST request from backend go project to frontend and parse the response
 
 #### Project output 
-<img align="left" src="https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/1.PNG" width=200 >![] (https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/1.PNG?raw=true)
+<img align="left" src="https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/1.PNG" width=200 >![Search Cat and Make Favorite] (https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/1.PNG?raw=true)
 
 
-<img align="left" src="https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/2.PNG" width=200 >![] (https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/2.PNG?raw=true)
+<img align="right" src="https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/2.PNG" width=200 >![Get all Favorites Cat] (https://github.com/W3-Anjan/golang-catapi/blob/master/static/img/2.PNG?raw=true)
 
